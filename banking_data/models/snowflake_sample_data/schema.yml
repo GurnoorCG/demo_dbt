@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: snowflake_databases
+    description: 'database data from snowflake account'
+    database: snowflake_sample_data  
+    schema: information_schema  
+    tables:
+      - name: databases
+
+ 
